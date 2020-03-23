@@ -1,26 +1,26 @@
 @font-face {
     font-family: montserrat;
-    src: url(/assets/fonts/Montserrat/Montserrat-Regular.ttf);
+    src: url(../fonts/Montserrat/Montserrat-Regular.ttf);
 }
 
 @font-face {
     font-family: montserrat-bold;
-    src: url(/assets/fonts/Montserrat/Montserrat-Bold.ttf);
+    src: url(../fonts/Montserrat/Montserrat-Bold.ttf);
 }
 
 @font-face {
     font-family: montserrat-light;
-    src: url(/assets/fonts/Montserrat/Montserrat-Light.ttf);
+    src: url(../fonts/Montserrat/Montserrat-Light.ttf);
 }
 
 @font-face {
     font-family: trade-gothic;
-    src: url(/assets/fonts/trade-gothic/Trade-Gothic-LT.ttf);
+    src: url(../fonts/trade-gothic/Trade-Gothic-LT.ttf);
 }
 
 @font-face {
     font-family: trade-gothic-bold;
-    src: url(/assets/fonts/trade-gothic/Trade-Gothic-LT-Bold.ttf);
+    src: url(../fonts/trade-gothic/Trade-Gothic-LT-Bold.ttf);
 }
 
 * {
@@ -121,7 +121,7 @@ li.nav-icons-item {
 /* Cover section */
 
 .cover-section {
-    background: url(/assets/images/travis-yewell-f-b7kwlkxdq-unsplash.jpg);
+    background: url(../images/travis-yewell-f-b7kwlkxdq-unsplash.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
@@ -131,7 +131,7 @@ li.nav-icons-item {
 /* About Section */ 
 
 .about {
-    background-image: url(/assets/images/robert-dickow-b7kmxoytq0g-unsplash.jpg);
+    background-image: url(../images/robert-dickow-b7kmxoytq0g-unsplash.jpg);
     padding: 40px 0;
     background-size: cover;
     background-repeat: no-repeat;
@@ -158,7 +158,7 @@ p.about-desc {
 /* Featured Product section */
 
 section.featured-products {
-    background-image: url(/assets/images/notes-sheet.jpg);
+    background-image: url(../images/notes-sheet.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     padding: 50px 0;
@@ -193,7 +193,7 @@ section.featured-products {
 /* Latest Videos */
 
 section.latest-video {
-    background-image: linear-gradient(to bottom, rgba(002, 002, 002, 0.5), rgba(002, 002, 002, 0.5)), url(/assets/images/latest-video-bg.jpg) ;
+    background-image: linear-gradient(to bottom, rgba(002, 002, 002, 0.5), rgba(002, 002, 002, 0.5)), url(../images/latest-video-bg.jpg) ;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: -20%;
@@ -216,7 +216,7 @@ section.latest-video {
 /* Testimonials */ 
 
 section.testimonials {
-    background-image: linear-gradient(to bottom, rgba(002, 002, 002, 0.5), rgba(002, 002, 002, 0.5)), url(/assets/images/guitar-cover.jpg) ;
+    background-image: linear-gradient(to bottom, rgba(002, 002, 002, 0.5), rgba(002, 002, 002, 0.5)), url(../images/guitar-cover.jpg) ;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: -20%;
