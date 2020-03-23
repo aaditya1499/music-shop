@@ -1,0 +1,238 @@
+@font-face {
+    font-family: montserrat;
+    src: url(/assets/fonts/Montserrat/Montserrat-Regular.ttf);
+}
+
+@font-face {
+    font-family: montserrat-bold;
+    src: url(/assets/fonts/Montserrat/Montserrat-Bold.ttf);
+}
+
+@font-face {
+    font-family: montserrat-light;
+    src: url(/assets/fonts/Montserrat/Montserrat-Light.ttf);
+}
+
+@font-face {
+    font-family: trade-gothic;
+    src: url(/assets/fonts/trade-gothic/Trade-Gothic-LT.ttf);
+}
+
+@font-face {
+    font-family: trade-gothic-bold;
+    src: url(/assets/fonts/trade-gothic/Trade-Gothic-LT-Bold.ttf);
+}
+
+* {
+    font-family: montserrat;
+}
+
+html,body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.section-heading {
+    font-family: trade-gothic-bold;
+    margin-bottom: 0px;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* Navigation Start */
+
+.navbar {
+    background-color: #1c1c1c;
+    color: white;
+}
+
+.navbar a {
+    color: white;
+    transition: color 0.5s;
+    padding: 10px;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+}
+
+.navbar li.active a {
+    color: #e41c26;
+}
+
+.navbar a:hover {
+    color: white;
+}
+
+.nav-item {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.row {
+    width: 100%;
+}
+
+.navbar ul li .underline {
+	height: 2px;
+	background-color: transparent;
+	width: 0%;
+	transition: width 0.2s, background-color 0.5s;
+	margin: 0 auto;
+}
+
+.navbar ul li.active .underline {
+	width: 100%;
+	background-color: #e41c26;
+}
+
+.navbar ul li:hover .underline {
+	background-color: #e41c26;
+	width: 100%;
+}
+
+.navbar ul li:hover a {
+}
+
+.navbar ul li:active a {
+	transition: none;
+	color: rgba(255,255,255,0.76);
+}
+
+.navbar ul li:active .underline {
+	transition: none;
+	background-color: rgba(255,255,255,0.76);
+}
+
+.nav-icons {
+    list-style-type: none;
+    flex-direction: row;
+    margin-bottom: 0;
+}
+
+li.nav-icons-item {
+    padding: 10px;
+    display: inline-block;
+}
+
+/* Navigation End */
+
+/* Cover section */
+
+.cover-section {
+    background: url(/assets/images/travis-yewell-f-b7kwlkxdq-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+
+/* About Section */ 
+
+.about {
+    background-image: url(/assets/images/robert-dickow-b7kmxoytq0g-unsplash.jpg);
+    padding: 40px 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.about-content img {
+    width: 100%;
+    height: 100%;
+}
+
+.about-text {
+    color: white;
+}
+
+.about-text h1,.about-text h3 {
+    /* font-family: montserrat-bold; */
+    font-weight: bolder;
+}
+
+p.about-desc {
+    font-family: montserrat-light;
+}
+
+/* Featured Product section */
+
+section.featured-products {
+    background-image: url(/assets/images/notes-sheet.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 50px 0;
+}
+
+.featured-products .row {
+    margin: 40px 0 0;
+}
+
+.featured-product-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.featured-card-wrapper {
+    background-color: white;
+    padding: 20px !important;
+    width: 90%;
+}
+
+.card-image {
+    width: 100%;
+}
+
+.featured-card-wrapper a.view-more {
+    color: #e41c26;
+    text-decoration: none;
+    float: left;
+}
+
+/* Latest Videos */
+
+section.latest-video {
+    background-image: linear-gradient(to bottom, rgba(002, 002, 002, 0.5), rgba(002, 002, 002, 0.5)), url(/assets/images/latest-video-bg.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: -20%;
+    padding: 50px 0;
+}
+
+.latest-video .section-heading {
+    color: white;
+}
+
+.latest-video .row {
+    margin: 40px 0 0;
+}
+
+.video-iframe {
+    width: 100%;
+    height: 250px;
+}
+
+/* Testimonials */ 
+
+section.testimonials {
+    background-image: linear-gradient(to bottom, rgba(002, 002, 002, 0.5), rgba(002, 002, 002, 0.5)), url(/assets/images/guitar-cover.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: -20%;
+    padding: 50px 0;
+}
+
+.testimonials .section-heading {
+    color: white;
+} 
+
+.testimonial-image img {
+    border-radius: 50%;
+    width: 100%;
+}
+
+.testimonial-text {
+    color: white;
+    margin-top: 50px;
+}
