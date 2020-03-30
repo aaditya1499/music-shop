@@ -198,9 +198,9 @@ body {
     content: "";
     transition: all .2s ease-in-out;
   }
-  #overlay-button:hover span, #overlay-button:hover span:before, #overlay-button:hover span:after {
+  /* #overlay-button:hover span, #overlay-button:hover span:before, #overlay-button:hover span:after {
     background: #333332;
-  }
+  } */
   
   input[type=checkbox] {
     display: none;
