@@ -10,57 +10,105 @@
   </head>
   <body>  
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg fixed-top">
-        <div class="container-fluid m-0">
-            <div class="row">
-                <div class="col-md-2 nav-logo-div">
-                    <a class="navbar-brand" href="#">LOGO</a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                </div>
-                <div class="col-md-2 offset-md-3 nav-links-div">
-                  <ul class="navbar-nav mt-2 mt-lg-0 center">
-                      <li class="nav-item active">
-                          <a class="nav-link" href="#">Home</a>
-                          <div class="underline"></div>
-                      </li>
-                      <li class="nav-item">
-                          <a class="nav-link" href="#">Work</a>
-                          <div class="underline"></div>
-                      </li>
-                      <li class="nav-item">
-                          <a class="nav-link " href="#">Blog</a>
-                          <div class="underline"></div>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link " href="#">Store</a>
+    <nav class="navbar navbar-styles navbar-expand-lg fixed-top">
+      <div class="container-fluid m-0">
+          <div class="row">
+              <div class="col-md-2 nav-logo-div">
+                  <a class="navbar-brand" href="#">LOGO</a>
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                  </button>
+              </div>
+              <div class="col-md-2 offset-md-3 nav-links-div">
+                <ul class="navbar-nav mt-2 mt-lg-0 center">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home</a>
                         <div class="underline"></div>
                     </li>
-                  </ul>
-                </div>
-                <div class="col-md-3 offset-md-2 nav-icons-div">
-                  <ul class="nav-icons">
-                    <li class="nav-icons-item">
-                      <a href="#" class="nav-icon">
-                        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-                      </a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Work</a>
+                        <div class="underline"></div>
                     </li>
-                    <li class="nav-icons-item">
-                      <a href="#" class="nav-icon">
-                        <i class="fa fa-user" aria-hidden="true"></i>
-                      </a>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#">Blog</a>
+                        <div class="underline"></div>
                     </li>
-                    <li class="nav-icons-item">
-                      <a href="#" class="nav-icon">
-                        <i class="fa fa-search" aria-hidden="true"></i>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-            </div>
+                    <li class="nav-item">
+                      <a class="nav-link " href="#">Store</a>
+                      <div class="underline"></div>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-md-3 offset-md-2 nav-icons-div">
+                <ul class="nav-icons">
+                  <li class="nav-icons-item">
+                    <a href="#" class="nav-icon">
+                      <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                    </a>
+                  </li>
+                  <li class="nav-icons-item">
+                    <a href="#" class="nav-icon">
+                      <i class="fa fa-user" aria-hidden="true"></i>
+                    </a>
+                  </li>
+                  <li class="nav-icons-item">
+                    <a href="#" class="nav-icon">
+                      <i class="fa fa-search" aria-hidden="true"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+          </div>
+      </div>
+    </nav>
+
+    <nav class="mobile-nav navbar-styles">
+      <a href="#" class="mob-nav-logo">LOGO</a>
+      <input type="checkbox" id="overlay-input" />
+      <label for="overlay-input" id="overlay-button"><span></span></label>
+      <div id="overlay">
+        <ul >
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home</a>
+            <div class="underline"></div>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#">Work</a>
+              <div class="underline"></div>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link " href="#">Blog</a>
+              <div class="underline"></div>
+          </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#">Store</a>
+              <div class="underline"></div>
+          </li>
+        </ul>
+        <div class="mob-nav-content">
+          <h3 class="nav-title">
+            Chetan Ghodeshwar
+          </h3>
+          <a href="#" class="nav-contact">+91-9977517778</a>
+          <a href="#" class="nav-contact">cotact@chgodeshwar.com</a>
+          <a href="#" class="nav-contact">Indore, India</a>
+          <div class="social-icons">
+            <a href="" class="social-icon">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="" class="social-icon">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="" class="social-icon">
+              <i class="fab fa-youtube"></i>
+            </a>
+            <a href="" class="social-icon">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </div>
         </div>
-      </nav>
+      </div>
+    </nav>
 
     <!-- Cover Section -->
     <section class="container-fluid cover-section">
@@ -75,7 +123,7 @@
           </div>
           <div class="col-md-6 offset-md-1 about-text col-12 offset-0">
             <h1 class="about-heading">Chetan Ghodeshwar</h1>
-            <h3>Pianist | Composer | Artist</h3>
+            <h3 class="about-skills">Pianist | Composer | Artist</h3>
             <p class="about-desc">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore rerum, a magnam aut quis ducimus et id? Quos voluptate pariatur labore nostrum ipsum quibusdam, nam reprehenderit sed possimus, perferendis quae odit fugit, porro dolor laborum laboriosam. Magnam atque excepturi accusamus praesentium nulla molestias, voluptate tempore autem itaque sed fugiat, consequatur magni omnis fuga distinctio nam. Veniam distinctio laboriosam sunt, natus perspiciatis porro sequi harum aut repellat rem eaque, doloribus quos. Nostrum iure temporibus consectetur. Eos sunt nisi eveniet sapiente vero.
             </p>
@@ -91,7 +139,7 @@
       </h2>
       <div class="container">
         <div class="row">
-          <div class="col-md-4 featured-product-card">
+          <div class="col-md-4 col-12 featured-product-card">
             <div class="featured-card-wrapper">
               <h4 class="card-heading">
                 Product Title
@@ -104,7 +152,7 @@
             </div>
           </div>
 
-          <div class="col-md-4 featured-product-card">
+          <div class="col-md-4 col-12 featured-product-card">
             <div class="featured-card-wrapper">
               <h4 class="card-heading">
                 Product Title
@@ -117,7 +165,7 @@
             </div>
           </div>
 
-          <div class="col-md-4 featured-product-card">
+          <div class="col-md-4 col-12 featured-product-card">
             <div class="featured-card-wrapper">
               <h4 class="card-heading">
                 Product Title
@@ -132,7 +180,7 @@
         </div>
 
         <div class="row">
-          <div class="col-md-4 featured-product-card">
+          <div class="col-md-4 col-12 featured-product-card">
             <div class="featured-card-wrapper">
               <h4 class="card-heading">
                 Product Title
@@ -145,7 +193,7 @@
             </div>
           </div>
 
-          <div class="col-md-4 featured-product-card">
+          <div class="col-md-4 col-12 featured-product-card">
             <div class="featured-card-wrapper">
               <h4 class="card-heading">
                 Product Title
@@ -158,7 +206,7 @@
             </div>
           </div>
 
-          <div class="col-md-4 featured-product-card">
+          <div class="col-md-4 col-12 featured-product-card">
             <div class="featured-card-wrapper">
               <h4 class="card-heading">
                 Product Title
@@ -210,16 +258,51 @@
       <h2 class="section-heading">
         Testimonials
       </h2>
-      <div class="row">
-        <div class="col-md-2 offset-md-2 testimonial-image">
+      <div class="row testimonail-row">
+        <div class="col-md-2 col-12 offset-md-2 testimonial-image">
           <img src="assets/images/elon.jpg" alt="">
         </div>
-        <div class="col-md-6 testimonial-text">
+        <div class="col-md-6 col-10 offset-1 offset-md-0 testimonial-text">
           <p class="testimonial-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure similique sint omnis quis numquam modi, doloremque consectetur dolor odit veniam. Veritatis sequi labore maiores inventore excepturi, dicta odit amet debitis!</p>
           <p class="testimonial-author">
             Alexandar Mchoon <br>
             | Senior Experience Deigner
           </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Recent Blog -->
+    <section class="recent-blog container-fluid">
+      <h2 class="section-heading">
+        Recent Blog
+      </h2>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 col-12 blog-div">
+            <div class="blog-content-wrapper">
+              <img src="/assets/images/piano.jpg" alt="">
+              <p class="blog-date">15<sup>th</sup> February 2019</p>
+              <h5 class="blog-title">Malencholy evening</h5>
+              <p class="blog-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam similique itaque sed laborum quibusdam ab ex eum tempore reprehenderit unde....</p>
+            </div>
+          </div>
+          <div class="col-md-4 col-12 blog-div">
+            <div class="blog-content-wrapper">
+              <img src="/assets/images/book.jpg" alt="">
+              <p class="blog-date">15<sup>th</sup> February 2019</p>
+              <h5 class="blog-title">Malencholy evening</h5>
+              <p class="blog-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam similique itaque sed laborum quibusdam ab ex eum tempore reprehenderit unde....</p>
+            </div>
+          </div>
+          <div class="col-md-4 col-12 blog-div">
+            <div class="blog-content-wrapper">
+              <img src="/assets/images/latest-video-bg.jpg" alt="">
+              <p class="blog-date">15<sup>th</sup> February 2019</p>
+              <h5 class="blog-title">Malencholy evening</h5>
+              <p class="blog-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam similique itaque sed laborum quibusdam ab ex eum tempore reprehenderit unde....</p>
+            </div>
+          </div>
         </div>
       </div>
     </section>
