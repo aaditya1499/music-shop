@@ -437,7 +437,7 @@ section.recent-blog {
     .featured-card-wrapper,.blog-content-wrapper {
         width: 100%;
     }
-    section.testimonials {
+    section.testimonials, section.latest-video {
         background-position: 0%;
     }
     .testimonail-row,.featured-products .row {
