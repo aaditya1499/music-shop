@@ -11,6 +11,28 @@ $('.nav-link').hover(function () {
 	}
 );
 
+// // Create a request variable and assign a new XMLHttpRequest object to it.
+// var request = new XMLHttpRequest()
+
+// // Open a new connection, using the GET request on the URL endpoint
+// request.open('GET', 'https://api.covid19india.org/data.json', true)
+
+// request.onload = function() {
+//   // Begin accessing JSON data here
+//   var data = JSON.parse(this.response);
+//   console.log(data);
+//   var stateData = data.statewise;
+//   console.log(stateData);
+//   stateData.forEach(states => {
+// 	console.log(states.state);
+//   });
+// }
+
+// // Send request
+// request.send()
+
+
+
 var x = screen.width; 
 
 var cw = $('.featured-product-card').width();
