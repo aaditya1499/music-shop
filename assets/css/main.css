@@ -183,6 +183,9 @@ section.recent-blog {
     .latest-video .section-heading ,.featured-products .section-heading {
         margin-bottom: 40px;
     }
+    .cover-section {
+        background-position: center;
+    }
 }
 
 @media only screen and (max-width:515px) {
