@@ -40,7 +40,7 @@ html,body {
 }
 
 .box-shadow-light {
-  box-shadow:3px 3px 4px rgba(0,0,0,0.5);
+  box-shadow:6px 6px 8px rgba(0,0,0,0.2);
 }
 
 .section-heading {
