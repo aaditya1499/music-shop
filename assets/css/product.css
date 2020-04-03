@@ -1,0 +1,318 @@
+section.product-main-section {
+    background: linear-gradient(to bottom, rgba(002, 002, 002, 0.4), rgba(002, 002, 002, 0.4)), url(../images/productBG.png) no-repeat;
+    width: 100%;
+    padding: 50px 0;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+div.product-content {
+    background-color: white;
+    margin-top: 50px;
+    padding: 30px !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img.product-main-img {
+    width: 80%;
+}
+
+.product-title {
+    font-family: trade-gothic-bold;
+}
+
+.product-genre {
+    color: dimgray;
+    font-weight: bold;
+}
+
+.product-info-title {
+    color: dimgray;
+    margin-bottom: 5px;
+}
+
+.product-info {
+    color: black;
+}
+
+.description-title {
+    margin-top: 20px;
+    color: black;
+}
+
+.product-files-row {
+    margin: 30px auto;
+}
+
+.files-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+.files-card-content-wrapper {
+    padding: 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+}
+
+.files-card:hover {
+    transform: scale(1.02);
+}
+
+.file-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+img.file-img {
+    margin: 0 5%;
+}
+
+.file-price {
+    font-size: 1.5rem;
+}
+
+.file-download {
+    color: black;
+    /* margin-left: 10%; */
+    float: right;
+    font-size: 2rem;
+}
+
+.file-download:hover {
+    color: #e41c26;
+}
+
+.buttons-div {
+    text-align: center;
+}
+
+.buy-buttons {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    display: inline-block;
+    width: 40%;
+    margin: 2.5%;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+.buy-buttons:hover {
+    color: #e41c26;
+    text-decoration: none;
+    transform: scale(1.1);
+}
+
+.buy-buttons .btn-img {
+    margin-right: 20px;
+}
+
+.reviews-row {
+    margin-top: 50px;
+}
+
+#customer-review {
+    font-weight: bold;
+}
+
+.review-div {
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    padding: 15px;
+    margin-bottom: 5px;
+}
+
+.review-title,.review-desc {
+    font-weight: bold;
+}
+
+.review-date {
+    color: dimgray;
+}
+
+.verified {
+    color: #e41c26;
+}
+
+
+@media only screen and (max-width:768px) {
+    div.product-content {
+        width: 90%;
+        padding: 15px !important;
+    }
+    img.product-main-img {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .files-card {
+        margin-bottom: 30px;
+    }
+    img.file-img {
+        margin: 0 2%;
+    }
+    .buy-buttons {
+        display: block;
+        margin: 0 auto 20px !important;
+        width: 80%;
+    }
+    .product-files-row {
+        margin-bottom: 0;
+    }
+    .reviewer-name {
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (max-width:400px) {
+    .reviewer-name {
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (max-width:377px) {
+    .reviewer-name {
+        font-size: 1.4rem;
+    }
+    .review-title {
+        font-size: 1.2rem;
+    }
+}
+
+/* checkbox */
+
+.checkbox {
+    vertical-align: middle;
+}
+
+.checkbox {
+    --background: #fff;
+    --border: #D1D6EE;
+    --border-hover: #BBC1E1;
+    --border-active: #1E2235;
+    --tick: #fff;
+    position: relative;
+  }
+  .checkbox input,
+  .checkbox svg {
+    width: 21px;
+    height: 21px;
+    display: block;
+  }
+  .checkbox input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    position: relative;
+    outline: none;
+    background: var(--background);
+    border: none;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    border-radius: 4px;
+    -webkit-transition: box-shadow .3s;
+    transition: box-shadow .3s;
+    box-shadow: inset 0 0 0 var(--s, 1px) var(--b, var(--border));
+  }
+  .checkbox input:hover {
+    --s: 2px;
+    --b: var(--border-hover);
+  }
+  .checkbox input:checked {
+    --b: var(--border-active);
+  }
+  .checkbox svg {
+    pointer-events: none;
+    fill: none;
+    stroke-width: 2px;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke: var(--stroke, var(--border-active));
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 21px;
+    height: 21px;
+    -webkit-transform: scale(var(--scale, 1)) translateZ(0);
+            transform: scale(var(--scale, 1)) translateZ(0);
+  }
+  .checkbox.path input:checked {
+    --s: 2px;
+    -webkit-transition-delay: .4s;
+            transition-delay: .4s;
+  }
+  .checkbox.path input:checked + svg {
+    --a: 16.1 86.12;
+    --o: 102.22;
+  }
+  .checkbox.path svg {
+    stroke-dasharray: var(--a, 86.12);
+    stroke-dashoffset: var(--o, 86.12);
+    -webkit-transition: stroke-dasharray .6s, stroke-dashoffset .6s;
+    transition: stroke-dasharray .6s, stroke-dashoffset .6s;
+  }
+  .checkbox.bounce {
+    --stroke: var(--tick);
+  }
+  .checkbox.bounce input:checked {
+    --s: 11px;
+  }
+  .checkbox.bounce input:checked + svg {
+    -webkit-animation: bounce .4s linear forwards .2s;
+            animation: bounce .4s linear forwards .2s;
+  }
+  .checkbox.bounce svg {
+    --scale: 0;
+  }
+  
+  @-webkit-keyframes bounce {
+    50% {
+      -webkit-transform: scale(1.2);
+              transform: scale(1.2);
+    }
+    75% {
+      -webkit-transform: scale(0.9);
+              transform: scale(0.9);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }
+  
+  @keyframes bounce {
+    50% {
+      -webkit-transform: scale(1.2);
+              transform: scale(1.2);
+    }
+    75% {
+      -webkit-transform: scale(0.9);
+              transform: scale(0.9);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }
+  html {
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  * {
+    box-sizing: inherit;
+  }
+  *:before, *:after {
+    box-sizing: inherit;
+  }

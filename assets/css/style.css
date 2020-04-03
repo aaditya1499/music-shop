@@ -39,6 +39,10 @@ html,body {
   box-shadow:6px 6px 8px rgba(0,0,0,0.5);
 }
 
+.box-shadow-light {
+  box-shadow:3px 3px 4px rgba(0,0,0,0.5);
+}
+
 .section-heading {
     font-family: trade-gothic-bold;
     margin-bottom: 0px;
