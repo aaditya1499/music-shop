@@ -5,7 +5,9 @@ $('.nav-link').on('click', function() {
 
 $('.nav-link').hover(function () {
 		console.log("called");
-		$(".active").children(".underline").hide("slow");
+		if(!($(this).parent().hasClass("active"))) {
+			$(".active").children(".underline").hide("slow");
+		}
 	}, function () {
 		$(".active").children(".underline").show("slow");
 	}

@@ -58,6 +58,10 @@ html,body {
     color: white;
 }
 
+.navbar-nav {
+  justify-content: center;
+}
+
 .navbar-styles a {
     color: white;
     transition: color 0.5s;
@@ -72,11 +76,6 @@ html,body {
 
 .navbar-styles a:hover {
     color: white;
-}
-
-.nav-item {
-    margin-right: auto;
-    margin-left: auto;
 }
 
 .row {
