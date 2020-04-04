@@ -92,6 +92,37 @@ img.file-img {
     color: #e41c26;
 }
 
+.files-card-second-row {
+    margin-top: 20px;
+}
+
+span.level {
+    display: inline-block;
+    float: left;
+    padding: 0 15px;
+    border-radius: 5px;
+    color: white;
+}
+
+span.level.easy {
+    background-color: #4CAF50;
+}
+
+span.level.intermeddiate {
+    background-color: #ff9800;
+}
+
+a.preview-btn {
+    display: inline-block;
+    float: right;
+    color: black;
+}
+
+a.preview-btn:hover {
+    color: black;
+    text-decoration: none;
+}
+
 .buttons-div {
     text-align: center;
 }

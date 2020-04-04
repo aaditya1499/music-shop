@@ -4,12 +4,11 @@ $('.nav-link').on('click', function() {
 });
 
 $('.nav-link').hover(function () {
-		console.log("called");
-		if(!($(this).parent().hasClass("active"))) {
-			$(".active").children(".underline").hide("slow");
-		}
+	if(!($(this).parent().hasClass("active"))) {
+		$(".active").children(".underline").stop( true, true ).hide("slow");
+	}
 	}, function () {
-		$(".active").children(".underline").show("slow");
+		$(".active").children(".underline").stop( true, true ).show("slow");
 	}
 );
 
@@ -40,3 +39,19 @@ var x = screen.width;
 var cw = $('.featured-product-card').width();
 if(x>768)
 	$('.featured-product-card').css({'height':cw+'px'});
+
+$(function(){
+	$(".dropdown").hover(            
+		function() {
+			$('.dropdown-menu', this).stop( true, true ).fadeIn("fast");
+			$(this).toggleClass('open');
+			$('b', this).toggleClass("caret caret-up");       
+			$(".active").children(".underline").hide("slow");         
+		},
+		function() {
+			$('.dropdown-menu', this).stop( true, true ).fadeOut("fast");
+			$(this).toggleClass('open');
+			$('b', this).toggleClass("caret caret-up"); 
+			$(".active").children(".underline").show("slow");               
+		});
+	});

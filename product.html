@@ -22,21 +22,26 @@
               </div>
               <div class="col-md-6 offset-md-1 nav-links-div">
                 <ul class="navbar-nav mt-2 mt-lg-0 center">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home</a>
-                        <div class="underline"></div>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Work</a>
-                        <div class="underline"></div>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link " href="#">Blog</a>
-                        <div class="underline"></div>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link " href="store.html">Store</a>
+                  <li class="nav-item">
+                      <a class="nav-link" href="index.html">Home</a>
                       <div class="underline"></div>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">Work</a>
+                      <div class="underline"></div>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link " href="#">Blog</a>
+                      <div class="underline"></div>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link" href="#" id="drop1" data-toggle="dropdown" class="dropdown-toggle" role="button">Store <b class="caret"></b></a>
+                    <ul role="menu" class="dropdown-menu" aria-labelledby="drop1">
+                      <li class="dropdown-li" role="presentation"><a href="store.html" class="menu-link" role="menuitem">General</a></li>
+                      <li class="dropdown-li" role="presentation"><a href="store.html" class="menu-link" role="menuitem">ABRSM</a></li>
+                      <li class="dropdown-li" role="presentation"><a href="store.html" class="menu-link" role="menuitem">Trinity</a></li>
+                    </ul>
+                    <div class="underline"></div>
                   </li>
                 </ul>
               </div>
@@ -81,9 +86,9 @@
               <a class="nav-link " href="#">Blog</a>
               <div class="underline"></div>
           </li>
-            <li class="nav-item">
-              <a class="nav-link " href="store.html">Store</a>
-              <div class="underline"></div>
+          <li class="nav-item">
+            <a class="nav-link " href="store.html">Store</a>
+            <div class="underline"></div>
           </li>
         </ul>
         <div class="mob-nav-content">
@@ -132,7 +137,7 @@
             </p>
           </div>
         </div>
-        <div class="row product-files-row">
+        <div class="row product-files-row easy-row">
           <div class="col-md-4 col-12 files-card">
             <div class="files-card-content-wrapper box-shadow-light">
               <h4 class="file-title">Midi File</h4>
@@ -145,6 +150,10 @@
               <img src="assets/images/midi.png" alt="Midi" class="file-img">
               <span class="file-price">$ 69.00</span> 
               <a href="#" class="file-download"><i class="fas fa-download"></i></a>
+              <div class="files-card-second-row">
+                <span class="level easy">Easy</span>
+                <a href="#" class="preview-btn">Preview</a>
+              </div>
             </div>
           </div>
           <div class="col-md-4 col-12 files-card">
@@ -159,6 +168,10 @@
               <img src="assets/images/pdf.png" alt="Midi" class="file-img">
               <span class="file-price">$ 69.00</span> 
               <a href="#" class="file-download"><i class="fas fa-download"></i></a>
+              <div class="files-card-second-row">
+                <span class="level easy">Easy</span>
+                <a href="#" class="preview-btn">Preview</a>
+              </div>
             </div>
           </div>
           <div class="col-md-4 col-12 files-card">
@@ -173,6 +186,66 @@
               <img src="assets/images/mp4.png" alt="Midi" class="file-img">
               <span class="file-price">$ 69.00</span> 
               <a href="#" class="file-download"><i class="fas fa-download"></i></a>
+              <div class="files-card-second-row">
+                <span class="level easy">Easy</span>
+                <a href="#" class="preview-btn">Preview</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row product-files-row intermeddiate-row">
+          <div class="col-md-4 col-12 files-card">
+            <div class="files-card-content-wrapper box-shadow-light">
+              <h4 class="file-title">Midi File</h4>
+                <label class="checkbox path">
+                  <input type="checkbox" name="midi-check">
+                  <svg viewBox="0 0 21 21">
+                      <path d="M5,10.75 L8.5,14.25 L19.4,2.3 C18.8333333,1.43333333 18.0333333,1 17,1 L4,1 C2.35,1 1,2.35 1,4 L1,17 C1,18.65 2.35,20 4,20 L17,20 C18.65,20 20,18.65 20,17 L20,7.99769186"></path>
+                  </svg>
+              </label>
+              <img src="assets/images/midi.png" alt="Midi" class="file-img">
+              <span class="file-price">$ 69.00</span> 
+              <a href="#" class="file-download"><i class="fas fa-download"></i></a>
+              <div class="files-card-second-row">
+                <span class="level intermeddiate">Intermeddiate</span>
+                <a href="#" class="preview-btn">Preview</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-12 files-card">
+            <div class="files-card-content-wrapper box-shadow-light">
+              <h4 class="file-title">Sheet Music</h4>
+                <label class="checkbox path">
+                  <input type="checkbox" name="pdf-check">
+                  <svg viewBox="0 0 21 21">
+                      <path d="M5,10.75 L8.5,14.25 L19.4,2.3 C18.8333333,1.43333333 18.0333333,1 17,1 L4,1 C2.35,1 1,2.35 1,4 L1,17 C1,18.65 2.35,20 4,20 L17,20 C18.65,20 20,18.65 20,17 L20,7.99769186"></path>
+                  </svg>
+              </label>
+              <img src="assets/images/pdf.png" alt="Midi" class="file-img">
+              <span class="file-price">$ 69.00</span> 
+              <a href="#" class="file-download"><i class="fas fa-download"></i></a>
+              <div class="files-card-second-row">
+                <span class="level intermeddiate">Intermeddiate</span>
+                <a href="#" class="preview-btn">Preview</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-12 files-card">
+            <div class="files-card-content-wrapper box-shadow-light">
+              <h4 class="file-title">Video Tutorial</h4>
+                <label class="checkbox path">
+                  <input type="checkbox" name="mp4-check">
+                  <svg viewBox="0 0 21 21">
+                      <path d="M5,10.75 L8.5,14.25 L19.4,2.3 C18.8333333,1.43333333 18.0333333,1 17,1 L4,1 C2.35,1 1,2.35 1,4 L1,17 C1,18.65 2.35,20 4,20 L17,20 C18.65,20 20,18.65 20,17 L20,7.99769186"></path>
+                  </svg>
+              </label>
+              <img src="assets/images/mp4.png" alt="Midi" class="file-img">
+              <span class="file-price">$ 69.00</span> 
+              <a href="#" class="file-download"><i class="fas fa-download"></i></a>
+              <div class="files-card-second-row">
+                <span class="level intermeddiate">Intermeddiate</span>
+                <a href="#" class="preview-btn">Preview</a>
+              </div>
             </div>
           </div>
         </div>
@@ -217,7 +290,10 @@
 
     <!-- Products Sections -->
 
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script
+			  src="https://code.jquery.com/jquery-3.4.1.min.js"
+			  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+			  crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <script src="assets/js/script.js"></script>
