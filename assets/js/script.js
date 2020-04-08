@@ -12,6 +12,8 @@ $('.nav-link').hover(function () {
 	}
 );
 
+var request = new XMLHttpRequest();
+
 request.open('GET', 'https://covidvisualizer.com/api', true)
 request.setRequestHeader("Access-Control-Allow-Origin","*");
 request.setRequestHeader("Access-Control-Allow-Credentials", "true");
