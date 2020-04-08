@@ -58,7 +58,7 @@ img.product-main-img {
 .files-card-content-wrapper {
     padding: 20px;
     box-sizing: border-box;
-    border: 2px solid #ccc;
+    /* border: 2px solid #ccc; */
     border-radius: 4px;
     width: 100%;
 }

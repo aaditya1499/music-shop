@@ -12,25 +12,33 @@ $('.nav-link').hover(function () {
 	}
 );
 
-// // Create a request variable and assign a new XMLHttpRequest object to it.
-// var request = new XMLHttpRequest()
+request.open('GET', 'https://covidvisualizer.com/api', true)
+request.setRequestHeader("Access-Control-Allow-Origin","*");
+request.setRequestHeader("Access-Control-Allow-Credentials", "true");
+request.setRequestHeader("Access-Control-Allow-Methods", "GET");
+request.setRequestHeader("Access-Control-Allow-Headers", "Content-Type");
 
-// // Open a new connection, using the GET request on the URL endpoint
-// request.open('GET', 'https://api.covid19india.org/data.json', true)
+request.onload = function() {
+  // Begin accessing JSON data here
+  var data = JSON.parse(this.response);
+  console.log(data);
+  var country = data.countries;
+  console.log(country);
+  // var dailyLength = dailyData.length-1;
+  // var todayData = dailyData[dailyData.length-1]
+  // console.log(todayData);
+  // var stateData = data.statewise;
+  // var confirmed = data.statewise[0].confirmed
+  // $("#total-confirmed").text(confirmed);
+  // $("#total-active").text(stateData[0].active);
+  // $("#total-recovered").text(stateData[0].recovered);
+  // $("#total-deaths").text(stateData[0].deaths);
+  // console.log("confirm",confirmed);
+  // stateData.forEach(states => {
+	// console.log(states.state);
+  // });
 
-// request.onload = function() {
-//   // Begin accessing JSON data here
-//   var data = JSON.parse(this.response);
-//   console.log(data);
-//   var stateData = data.statewise;
-//   console.log(stateData);
-//   stateData.forEach(states => {
-// 	console.log(states.state);
-//   });
-// }
-
-// // Send request
-// request.send()
+}
 
 
 
